@@ -1,0 +1,1 @@
+Agrega aqui tu archivo party.mp3 y actualiza MUSIC_SRC en pages/index.jsx si es necesario.
