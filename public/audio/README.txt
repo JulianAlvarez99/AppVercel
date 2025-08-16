@@ -1,1 +1,1 @@
-Agrega aqui tu archivo party.mp3 y actualiza MUSIC_SRC en pages/index.jsx si es necesario.
+Coloca tu archivo de música en public/audio/party.mp3 y se reproducirá desde el sitio.

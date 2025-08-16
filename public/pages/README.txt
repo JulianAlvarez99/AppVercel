@@ -1,0 +1,1 @@
+Coloca aquí imágenes (jpg/png/webp). Estas se mostrarán como secciones a pantalla completa (uno por imagen).

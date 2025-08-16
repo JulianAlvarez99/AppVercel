@@ -1,0 +1,58 @@
+
+:root{
+  --bg: #FFF;
+  --pastel1: #FFF5E1;
+  --pastel2: #FFE6EB;
+  --pastel3: #FFD6C2;
+  --pastel4: #FDE2E4;
+  --accent: #FFB6C1;
+  --text: #333333;
+  --max-width: 960px;
+}
+
+*{box-sizing:border-box}
+html,body,#__next{height:100%}
+body{
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.container{
+  max-width:var(--max-width);
+  margin:0 auto;
+  padding:20px;
+}
+
+/* Each section fills viewport height (except forms where we allow auto) */
+.section-full{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:40px 20px;
+  text-align:center;
+}
+
+/* smaller sections (like forms) */
+.section-compact{
+  min-height:60vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:40px 20px;
+  text-align:center;
+}
+
+.card{ background:rgba(255,255,255,0.8); padding:20px; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+
+h1{ font-family:'Playfair Display', serif; font-size:2.2rem; margin:0 0 8px 0; }
+h2{ font-family:'Playfair Display', serif; font-size:1.4rem; margin:0 0 12px 0; }
+
+@media (max-width:600px){
+  h1{ font-size:1.6rem; }
+  .section-full{padding:28px 12px}
+}
